@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(88, 63, 34);
+}
+
+.headfoot{
+    background-color: crimson ;
+    text-align:center ;
+    padding: 5px ;
+    width: 98% ;
+    margin: 10px;
+    clear:both;
+}
+
+.navigator{
+    background-color: bisque;
+    margin: 10px;
+}
+
+.navigator ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px;
+
+}
+
+.navigator li:hover{
+    background-color: grey;
+    color:black;
+}
+
+.navigator a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.mainb{
+    background-color: aliceblue;
+    margin:10px;
+    padding:10px;
+    border-radius: 15px;
+    border:2px solid blue;
+    width:40%;
+    float:left;
+}
+
+input:focus {
+    width: 350px;
+  }
+
+.sidebar{
+    float:right;
+    background-color:greenyellow;
+    margin:10px;
+    padding:10px;
+    border-radius: 15px;
+    border:2px solid blue;
+    width:50%;
+}
+
+.sidebar:hover{
+    background-color: aqua;
+}
